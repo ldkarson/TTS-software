@@ -1,0 +1,104 @@
+*{
+    font-family : Arial;
+    box-sizing : border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Frame1{
+    background: lightgrey;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Frame1 h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-top : -50px;
+    margin-bottom : 30px; 
+}
+
+.Frame1 h1 span{
+    color: white;
+
+}
+
+.input_box{
+    height : 250px;
+    width : 600px;
+    font-size : 18px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 20px;
+    resize: none;
+    margin-bottom: 30px; 
+}
+
+.history{
+    height : 125px;
+    width : 600px;
+    font-size : 12px;
+    color: grey;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 20px;
+    resize: none;
+    margin-bottom: 30px; 
+    margin-top: 30px;
+    
+}
+
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Frame1 button{
+    height: 45px;
+    width: 95px;
+    font-size: 18px;
+    border-radius: 16px;
+    color: white;
+    background: black;
+    border: 2px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+
+}
+
+.Frame1 button:hover{
+    font-size: 20px;
+    opacity: 0.7
+
+}
+
+.Frame1 button:active{
+    opacity: 0.5
+}
+
+select{
+    flex: 1;
+    color: rgba(9, 9, 9, 0.489);
+    background-color: white;
+    height: 30px;
+    padding: 0 20px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    appearance : none;
+    background-image: url(image/arrow.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: calc(100% - 15px);
+    background-position-y: calc(8px);
+
+}
